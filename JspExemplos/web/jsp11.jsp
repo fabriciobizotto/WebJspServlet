@@ -24,7 +24,13 @@
             }
 
             contadorVisitas = (Integer) session.getAttribute(contadorVisitasChave);
-            contadorVisitas = contadorVisitas + 1;
+
+            if (contadorVisitas == null) {
+                contadorVisitas = 0;
+            } else {
+                contadorVisitas = contadorVisitas + 1;
+            }
+
             usuarioId = (String) session.getAttribute(usuarioIdChave);
             session.setAttribute(contadorVisitasChave, contadorVisitas);
 

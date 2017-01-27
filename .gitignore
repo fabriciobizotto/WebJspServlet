@@ -15,3 +15,4 @@ nb-configuration.xml
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+/JspServletExemplos/ServletControle da Sessão/SistemaLogin02/nbproject/private/
