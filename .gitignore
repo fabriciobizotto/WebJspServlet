@@ -7,11 +7,6 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
-*.ant-deploy.xml
-*.private.properties
-*.private.xml
-*.project.properties
-
 # Class Files #
 *.class
 
