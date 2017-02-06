@@ -7,12 +7,10 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+*.ant-deploy.xml
+*.private.properties
+*.private.xml
+*.project.properties
 
 # Class Files #
 *.class
