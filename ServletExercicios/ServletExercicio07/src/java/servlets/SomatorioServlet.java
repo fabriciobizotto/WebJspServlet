@@ -25,6 +25,7 @@ public class SomatorioServlet extends HttpServlet {
     @Override
     public void init(ServletConfig config) throws ServletException {
         System.out.println(config.getServletName());
+        System.out.println("Inicia o servlet");
     }
     
     @Override

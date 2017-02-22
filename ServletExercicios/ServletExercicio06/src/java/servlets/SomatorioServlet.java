@@ -7,6 +7,7 @@ package servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -23,12 +24,14 @@ public class SomatorioServlet extends HttpServlet {
     private Integer contador;
 
     @Override
-    public void init() {
+    public void init(ServletConfig config) {
+        System.out.println("Inicia o servlet");
         contador = 0;
     }
 
     @Override
     public void destroy() {
+        System.out.println("Destroy o servlet");
         contador = null;
     }
 
