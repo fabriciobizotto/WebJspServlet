@@ -1,3 +1,6 @@
+<!--
+    Imprimir olá mundo com JSP
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

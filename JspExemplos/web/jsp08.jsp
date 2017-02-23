@@ -1,3 +1,7 @@
+<!--
+    Calcular a tabuada do número, recebido por parâmetro
+    Adicionar uma verificação para evitar valores nulos
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

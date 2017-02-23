@@ -1,3 +1,6 @@
+<!--
+    Imprimir números de 0 a 10
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

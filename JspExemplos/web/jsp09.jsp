@@ -1,3 +1,6 @@
+<!--
+    Faça a mesma coisa do exercício anterior, porém agora o valor será recebido através de um formulário.
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -7,10 +10,10 @@
     </head>
     <body>
         <%@include file="menu.jsp" %>
-        <% request.setCharacterEncoding("UTF-8"); %>
-        
+        <% request.setCharacterEncoding("UTF-8");%>
+
         <form action="jsp09.jsp" method="GET">
-            Nome: <input type="text" name="numero" value="<%= request.getParameter("numero") %>" />
+            Nome: <input type="text" name="numero" value="<%= request.getParameter("numero")%>" />
             <input type="submit" value="Calcular tabuada" />
         </form>
 
@@ -28,6 +31,6 @@
                 out.print("Informe um número válido como parâmetro!");
             }
         %>
-        
+
     </body>
 </html>

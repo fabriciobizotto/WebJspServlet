@@ -1,0 +1,3 @@
+1. OlaMundo simples com servlet via web.xml
+2. OlaMundo simples com servlet via via anotação
+3. Enviar o nome pela URL via parâmetro GET

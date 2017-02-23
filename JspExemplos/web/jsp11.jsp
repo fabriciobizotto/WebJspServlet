@@ -1,3 +1,7 @@
+<!--
+    Vamos trabalhar agora com informações da sessão do usuário.
+    Faremos um contador de visitas nesta página
+-->
 <%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -19,9 +23,9 @@
             String usuarioIdChave = "usuarioId";
 
             if (session.isNew()) {
-                session.setAttribute(usuarioIdChave, usuarioId);
                 session.setAttribute(contadorVisitasChave, contadorVisitas);
             }
+            session.setAttribute(usuarioIdChave, usuarioId);
 
             contadorVisitas = (Integer) session.getAttribute(contadorVisitasChave);
 
