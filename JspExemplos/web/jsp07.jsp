@@ -14,11 +14,15 @@
 
         <%
             try {
-                Integer numero = Integer.parseInt(request.getParameter("numero"));
+                Integer numero = Integer.parseInt(
+                        request.getParameter("numero")
+                );
 
-                out.print("<p>Tabuada do número  " + request.getParameter("numero") + "</p>");
+                out.print("<p>Tabuada do número  "
+                        + request.getParameter("numero") + "</p>");
                 for (int i = 0; i < 11; i++) {
-                    out.print("<b>" + i + " x " + numero + " = " + (i * numero) + "</b>");
+                    out.print("<b>" + i + " x " 
+                            + numero + " = " + (i * numero) + "</b>");
                     out.print("<br />");
                 }
             } catch (Exception ex) {

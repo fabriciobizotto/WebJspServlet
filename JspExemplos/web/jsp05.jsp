@@ -1,5 +1,6 @@
 <!--
-    Criar um formulário para enviar nome e idade e submeter para a mesma página, via POST
+    Criar um formulário para enviar nome e idade e 
+submeter para a mesma página, via POST
 -->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -21,6 +22,7 @@
             <input type="submit" value="Clique aqui" />
         </form>
 
-        <p>Meu nome é <strong><%= nome%></strong> e eu tenho <strong><%= idade%></strong> anos de idade.</p>
+        <p>Meu nome é <strong><%= nome%></strong> e eu tenho 
+            <strong><%= idade%></strong> anos de idade.</p>
     </body>
 </html>

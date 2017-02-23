@@ -13,7 +13,8 @@
         <% request.setCharacterEncoding("UTF-8"); %>
         
         <form action="jsp10_resultado.jsp" method="GET">
-            Nome: <input type="text" name="numero" value="<%= request.getParameter("numero") %>" />
+            Nome: <input type="text" name="numero" 
+                         value="<%= request.getParameter("numero") %>" />
             <input type="submit" value="Calcular tabuada" />
         </form>        
     </body>
