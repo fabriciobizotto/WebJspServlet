@@ -1,3 +1,6 @@
+<!--
+    Criar um formulário para enviar nome e idade e submeter para a mesma página, via GET
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

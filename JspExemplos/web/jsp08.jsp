@@ -1,3 +1,7 @@
+<!--
+    Calcular a tabuada do número, recebido por parâmetro
+    Adicionar uma verificação para evitar valores nulos
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,11 +15,15 @@
 
         <% if (request.getParameter("numero") != null) {
 
-                Integer numero = Integer.parseInt(request.getParameter("numero"));
+                Integer numero = Integer.parseInt(
+                        request.getParameter("numero")
+                );
 
-                out.print("<p>Tabuada do número  " + request.getParameter("numero") + "</p>");
+                out.print("<p>Tabuada do número  " 
+                        + request.getParameter("numero") + "</p>");
                 for (int i = 0; i < 11; i++) {
-                    out.print("<b>" + i + " x " + numero + " = " + (i * numero) + "</b>");
+                    out.print("<b>" + i + " x " 
+                            + numero + " = " + (i * numero) + "</b>");
                     out.print("<br />");
                 }
 

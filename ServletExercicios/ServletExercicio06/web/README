@@ -1,0 +1,3 @@
+Imprimir o somatório entre os parâmetros inicio e fim.
+Imprimir também quantas vezes o servlet foi chamado.
+Destruir o contador ao finalizar a aplicação.

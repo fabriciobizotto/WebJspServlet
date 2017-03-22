@@ -1,3 +1,6 @@
+<!--
+    Imprimir uma saudação, recebida via parâmetro, e a data atual
+-->
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Date" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

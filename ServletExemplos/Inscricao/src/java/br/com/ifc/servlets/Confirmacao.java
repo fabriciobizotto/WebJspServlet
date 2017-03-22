@@ -42,8 +42,9 @@ public class Confirmacao extends HttpServlet {
             if (request.getParameter("sim") != null) {
                 out.println("<p>Sua inscrição foi confirmada com sucesso!</p>");
             }else{
-                out.println("<p>Sua inscrição foi cancelada!</p>");
+                out.println("<p>Sua inscrição não foi confirmada! Tente novamente!</p>");
             }
+            out.println("<p><a href='#' onclick='history.back()'>Voltar</a></p>");
 
             out.println("</body>");
             out.println("</html>");
