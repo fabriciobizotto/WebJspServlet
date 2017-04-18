@@ -14,8 +14,8 @@
     </head>
     <body>
         <jsp:include page="menu.jsp" />
-        ${mensagens}
         <div class="container">
+            <p class="well-sm bg-danger" ${mensagens == null ? 'hidden' : ''} >${mensagens}</p>
             <form method="post" action="Autenticador">
                 <label for="usuario">Usuário:</label>
                 <input type="text" name="usuario" value="" />
